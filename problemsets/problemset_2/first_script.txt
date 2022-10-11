@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+import sys
+
+#Print out name
+myName = 'Christian'
+print('My name: ' + myName)
+
+#Print favorite color
+favColor = sys.argv[1]
+print('My favorite color: ' + favColor)
+
+#Print favorite activity
+favActivity = sys.argv[2]
+print('My favorite activity: ' + favActivity)
+
+#Print favorite animal
+favAnimal = sys.argv[3]
+print('My favorite animal: ' + favAnimal)
+
+
